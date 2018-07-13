@@ -1,0 +1,68 @@
+.service {
+	max-width: 1048px;
+	height: 100%;
+	margin: auto;
+	padding: 10px;
+}
+
+.amazing h3 {
+	margin-top: 70px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.amazing h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	height: 30px;
+}
+
+.amazing {
+	margin-bottom: 50px;
+}
+
+.service-item .col {
+	float: left;
+	width: 33.333333%;
+	height: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.service-item::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.service-item .col img {
+	float: left;
+}
+
+.service-item .col .service-content {
+	display: block;
+	width: 90%;
+	float: left;
+	padding-left: 20px;
+}
+
+.service-item .col .service-content h4 {
+	margin: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.service-item .col .service-content p {
+	font-size: 14px;
+	color: #b3b3b3;
+}
+
+.line3 {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #eeeeee;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,107 @@
+.banner {
+	position: relative;	
+}
+
+.banner img {
+	width: 100%;
+}
+
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 150px;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.logo h1 {
+	font-size: 30px;
+	margin: 0;
+}
+
+.navbar-top {
+	position: absolute;	
+	top: 37.5px;
+	right: 150px;
+}
+
+.navbar-top a {
+	text-decoration: none;
+	color: #ffffff;
+	margin-left: 25px;
+	font-size: 14px;
+	text-transform: uppercase;	
+}
+
+.navbar-top img {
+	width: 16px;	
+}
+
+.navbar-top a:hover, .navbar-top a:active {
+	color: #fce38a;
+	position: relative;
+	
+}
+
+.navbar-top span:hover::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #fce38a;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+}
+
+.caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.caption a {
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+}
+
+.caption h2 {
+	font-size: 40px;
+	font-weight: normal;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.caption h3 {
+	font-size: 100px;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 1em;
+}
+
+.line {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 3px;
+	background-color: #ffffff;
+	margin-top: 40px;
+	margin-left: 300px;
+}
+
+.caption .learn {
+	width: 150px;
+	height: 40px;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 2px solid #ffffff;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 250px;
+	padding: 10px;
+}

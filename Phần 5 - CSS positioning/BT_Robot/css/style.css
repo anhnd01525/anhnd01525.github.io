@@ -83,15 +83,8 @@ body {
 	line-height: 1.5em;
 }
 
-.caption h3 {
-	font-size: 20px;
-	color: #ffffff;
-	margin: 0;
-	margin-bottom: 25px;
-
-}
-
 .subtitle {
+	font-size: 20px;
 	font-weight: bold;
 	color: #ffffff;
 	margin: 0;
@@ -102,6 +95,56 @@ body {
 .subtitle a {
 	color: #ffffff;
 	text-decoration: none;
+}
+
+.event {
+	max-width: 1148px;
+	margin: auto;
+}
+
+.event h2 {
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ff653b;
+	height: 30px;
+	margin-bottom: 50px;
+}
+
+.event-item {
+	width: 100%;
+	height: 100%;
+	background-color: #1e8bc3;
+}
+
+.event-item img {
+	float: left;
+}
+
+.event-content {
+	display: block;
+	float: left;
+	width: 60%;
+	height: 100%;
+	padding-left: 40px;	
+	color: #ffffff;
+}
+
+.event-content h3 {
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+.event-content p {
+	font-size: 25px;
+}
+
+
+.event-item::after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
 .schedule {
@@ -116,7 +159,7 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #00afef;
+	color: #1e8bc3;
 	height: 30px;
 	margin-bottom: 50px;
 }
@@ -129,7 +172,7 @@ body {
 
 .schedule-item {
 	margin-bottom: 50px;
-	background-color: #ff653b;
+	background-color: #f9690e;
 }
 
 .schedule-item img {
@@ -160,7 +203,7 @@ body {
 	max-width: 1348px;
 	height: 100%;
 	margin: auto;
-	background-color: #00afef;
+	background-color: #1e8bc3;
 }
 
 .speaker h2 {
@@ -200,8 +243,6 @@ body {
 }
 
 .name {
-	float: left;
-	width: 33.33%;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -217,7 +258,7 @@ body {
 .register {
 	width: 150px;
 	height: 80px;
-	background-color: #ff653b;
+	background-color: #f9690e;
 	margin: auto;
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -230,4 +271,17 @@ body {
 	text-align: center;
 	margin: auto;
 	padding: 20px;
+}
+
+.map {
+	text-align: center;
+}
+
+.map h2 {
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #1e8bc3;
+	height: 30px;
 }

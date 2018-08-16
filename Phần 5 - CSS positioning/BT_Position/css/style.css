@@ -1,0 +1,179 @@
+.wrap {
+	max-width: 1366px;
+	margin: auto;
+}
+
+body {
+	background-color: #EBEBEB;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: #ffffff;
+	height: 64px;
+	padding: 10px 80px 10px 80px;
+}
+
+.logo img {
+	float: left;
+	vertical-align: middle;
+}
+
+.icon-bar {
+	float: right;
+}
+
+.icon-bar a {
+	text-decoration: none;
+	color: #4a7db3;
+}
+
+.icon-bar a:hover,  .icon-bar a:active{
+	color: #97bce4;
+}
+
+.icon-bar img {
+	max-width: 16px;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+
+.icon-bar span {
+	font-size: 16px;
+	margin-right: 12px;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.menu-bar {
+	width: 160px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 216px;
+	left: 80px;
+}
+
+.menu-item {
+	height: 40px;
+	padding: 10px;
+	position: relative;
+}
+
+.menu-item::after {
+	content: "";
+	display: block;
+	width: 87.5%;
+	height: 2px;
+	background-color: #eee;
+	position: absolute;
+	bottom: -1.5px;
+}
+
+.menu-item a {
+	color: #0f3f79;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.menu-item a:hover, .menu-item a:active {
+	color: #0f3f79;
+}
+
+.photo {
+	position: absolute;
+	top: 220px;
+	left: 246px;
+}
+
+.photo img {
+	width: 100%;
+}
+
+.content {
+	max-width: 1206px;
+	height: 100%;
+	margin: auto;
+}
+
+.content::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.content h3 {
+	margin-top: 450px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 26px;
+	color: #2e2e2e;
+}
+
+.content-item {
+	width: 100%;
+	height: 100%;
+}
+
+.content-item::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.picture {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+.picture img {
+	width: 100%;
+	display: block;
+}
+
+.info {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.info .name {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #2e2e2e;
+	margin-bottom: 10px;	
+}
+
+.info .country {
+	text-transform: uppercase;
+	color: #999;
+	margin-bottom: 10px;
+}
+
+.info .role {
+	font-size: 14px;
+	font-weight: lighter;
+	color: #999;
+}
+
+.footer img {
+	width: 100%;
+	margin-top: 50px;
+}
+
+#back-to-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}

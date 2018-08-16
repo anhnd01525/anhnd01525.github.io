@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BT - Vòng Lặp Javascript</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+	<div class="wrap">
+		<div id="main-menu">
+			<a href="#">Basic static web</a>
+		</div>
+
+		<div id="main-content">
+			<div class="content">
+				<h1>BT - Vòng Lặp Javascript</h1>
+
+				<script>
+					document.write("<h3>Bài 4:</h3>");
+					var arr =["Ronaldo","Messi","Pogba","Hazard","Neymar","Alexis Sanchez","Marco Reus","Ramos"];
+					document.write("<p>" + "Học viên trong lớp: " + arr + "</p>");
+					arr.sort();
+					document.write("<p>" + "Danh sách: " + "</p>");
+					for (var i = 0; i < arr.length; i++) {
+						document.write("<p>" + "Mã Số " + (i+1) + ": " + arr[i] + "</p>");
+					}
+				</script>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

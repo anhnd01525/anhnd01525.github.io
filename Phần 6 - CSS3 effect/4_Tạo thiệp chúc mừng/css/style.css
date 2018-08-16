@@ -1,0 +1,109 @@
+.title {
+	position: absolute;
+	top: 50%;
+	animation: fade 10s ease infinite;
+}
+
+@keyframes fade {
+	0% {
+		transform: translate(-200px, 0);
+		opacity: 1;
+	}
+	50% {
+		transform: translate(340px, 0);
+		opacity: 1;
+	}
+	90% {		
+		transform: translate(1400px, 0);
+		opacity: 1;
+	}
+
+	95% {		
+		transform: translate(1500px, 0);
+		opacity: 0;
+	}
+	100% {
+		transform: translate(0, 0);
+		opacity: 0;
+	}
+}
+
+#neko1 {
+	position: fixed;
+	left: 20px;
+	top: 20px;
+	animation: run1 10s ease infinite;
+}
+
+#neko2 {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	animation: run2 10s ease infinite;
+}
+
+.thumb {
+	animation: sway 4s ease infinite;
+}
+
+@keyframes run1 {
+	0% {
+		transform: translate(0, 0);
+		transform: rotate(0deg);
+		opacity: 1;
+	}	
+	90% {
+		transform: translate(0, 700px);
+		opacity: 1;
+	}
+	95% {
+		transform: translate(0, 720px);
+		opacity: 0;
+	}
+	100% {
+		transform: translate(0, 0);
+		opacity: 0;
+	}
+}
+
+@keyframes run2 {
+	0% {
+		transform: translate(0, 0);
+		opacity: 1;
+	}	
+	90% {
+		transform: translate(0, -700px);
+		opacity: 1;
+	}
+	95% {
+		transform: translate(0, -720px);
+		opacity: 0;
+	}
+	100% {
+		transform: translate(0, 0);
+		opacity: 0;
+	}
+}
+
+@keyframes sway {
+	0% {
+		bottom: 0%;
+		transform: rotate(0deg);
+	}
+	25% {
+		bottom: 20%;
+		transform: rotate(20deg);
+	}
+	50% {
+		bottom: 40%;
+		transform: rotate(-20deg);
+	}
+	75% {
+		bottom: 60%;
+		transform: rotate(20deg);
+	}
+	100% {
+		bottom: 80%;
+		transform: rotate(0deg);
+	}
+}

@@ -1,5 +1,5 @@
 .wrap {
-	max-width: 1366px;
+	max-width: 1348px;
 	margin: auto;
 }
 
@@ -41,24 +41,33 @@ body {
 
 .icon-bar img {
 	max-width: 16px;
-	margin-right: 12px;
+/* 	margin-right: 12px; */
 	vertical-align: middle;
 }
 
 .icon-bar span {
 	font-size: 16px;
-	margin-right: 12px;
+	/* margin-right: 12px; */
+}
+
+.icon-bar-item {
+	float: left;
+	padding-left: 12px;
 }
 
 .banner img {
 	width: 100%;
 }
 
+.banner {
+	position: relative;
+}
+
 .menu-bar {
 	width: 160px;
 	background-color: #ffffff;
 	position: absolute;
-	top: 216px;
+	bottom: -396px;
 	left: 80px;
 }
 
@@ -91,7 +100,6 @@ body {
 
 .photo {
 	position: absolute;
-	top: 220px;
 	left: 246px;
 }
 
@@ -100,7 +108,7 @@ body {
 }
 
 .content {
-	max-width: 1206px;
+	max-width: 1188px;
 	height: 100%;
 	margin: auto;
 }
@@ -133,7 +141,8 @@ body {
 .picture {
 	float: left;
 	width: 25%;
-	padding-left: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin-top: 20px;
 }
 
@@ -149,20 +158,21 @@ body {
 }
 
 .info .name {
-	font-size: 20px;
+	font-size: 16px;
 	text-transform: uppercase;
 	color: #2e2e2e;
 	margin-bottom: 10px;	
 }
 
 .info .country {
+	font-size: 14px;
 	text-transform: uppercase;
 	color: #999;
 	margin-bottom: 10px;
 }
 
 .info .role {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: lighter;
 	color: #999;
 }

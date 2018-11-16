@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrap">
+		<img src="img/background.jpg" title="Old Trafford">
+
+		<div class="play" id="play">
+			<h1>Bạn có phải là fan "chân chính" của quỷ đỏ?</h1>
+			<button class="yes" id="yes">YES!</button>
+		</div>
+
+		<div class="quiz" id="quiz">
+			<div class="question">
+				<p id="question"></p>
+			</div>
+			
+			<div class="answer">
+				<div class="answer-col">
+					<div class="answer-item">
+						<p id="answerA"></p>
+						<div class="wrong" id="wrongA"><img src="img/wrong.png"></div>
+					</div>
+					<div class="answer-item">
+						<p id="answerC"></p>
+						<div class="wrong" id="wrongC"><img src="img/wrong.png"></div>
+					</div>
+				</div>
+
+				<div class="answer-col">
+					<div class="answer-item">
+						<p id="answerB"></p>
+						<div class="wrong" id="wrongB"><img src="img/wrong.png"></div>
+					</div>
+					<div class="answer-item">
+						<p id="answerD"></p>
+						<div class="wrong" id="wrongD"><img src="img/wrong.png"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="lose" id="lose">
+			<div class="thumb">
+				<img src="img/lose.png">
+			</div>
+			<div class="say">
+				<span>Mày là fan phong trào!</span>
+				<button class="again" id="again">AGAIN!</button>
+			</div>				
+		</div>
+
+		<div class="draw" id="draw">
+			<div class="thumb">
+				<img src="img/draw.png">
+			</div>
+			
+			<div class="say">
+				<span>Bạn chưa phải là fan chân chính của MU!</span>
+				<button class="again" id="again2">AGAIN!</button>
+			</div>
+		</div>		
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

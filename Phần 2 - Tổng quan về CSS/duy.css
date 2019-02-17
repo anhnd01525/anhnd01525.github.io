@@ -1,0 +1,7 @@
+h3 {
+	color: orange;
+}
+h4 {
+	color: #0099aa; /*hexadecimal color*/
+	color: rgb(00, 255, 00); /*RGB color*/
+}

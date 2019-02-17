@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM Event</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+
+<body>
+	<div class="wrap">
+		<div id="main-menu">
+			<a href="#">Basic static web</a>
+		</div>
+
+		<div id="main-content">
+			<div class="content">
+				<h1> Demo DOM Event</h1>
+				
+				<button onclick="alert('OKE!')">Bấm vào đây</button><br><br>
+
+				<button onclick="press()">Bấm vô</button><br><br>
+
+				<button onclick="press2('Button 1')">Button 1</button>
+				<button onclick="press2('Button 2')">Button 2</button>
+				<button onclick="press2('Button 3')">Button 3</button>
+				<br><br>
+
+				<button onclick="press3(this)">Nút số 1</button>
+				<button onclick="press3(this)">Nút số 2</button>
+				<button onclick="press3(this)">Nút số 3</button>
+				<br><br>
+
+				x = <input type="text" id="x"> <br>
+				y = <input type="text" id="y"> <br>
+				<button onclick="sum()">SUM</button>
+				<p>x + y = <b id="result"></b></p>
+				<br>
+				
+				<button id="show-btn">Click</button>
+				<br>
+
+				<ul>
+					<li><a href="#" class="show">Tin công nghệ</a></li>
+					<li><a href="#">Tin giải trí</a></li>
+					<li><a href="#" class="show">Tin thời sự</a></li>
+				</ul>
+				<br>
+
+				<input type="text" id="txt-val" value="">
+				<div id="res"></div>
+				<br>
+
+				<h4>Bạn hãy zoom trình duyệt</h4>
+				<div id="res2"></div>
+				<br>
+
+				a = <input type="text" id="a"> <br>
+				b = <input type="text" id="b"> <br>
+				<button id="btn">Multiple</button>
+				<p>a * b = <b id="res3"></b></p>
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

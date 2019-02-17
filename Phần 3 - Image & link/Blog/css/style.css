@@ -1,0 +1,35 @@
+img {
+	max-width: 100%;
+	max-height: 300px;
+}
+
+#bd1,#bd2 {
+	height: 1000px;
+}
+
+/* style cho link bằng Pseudo class*/
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: grey;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active {
+	color: purple;
+}
+
+/* có thể style cho img bằng Pseudo class */
+img:hover {
+	border-radius: 50%;
+}
+
+.active {
+	font-weight: bold; 
+}

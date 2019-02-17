@@ -65,7 +65,7 @@ h1 {
 	float: left;
 	width: 33.333333%;
 	padding: 15px;
-	position: relative;
+	/* position: relative; */
 }
 
 .thumb1, .thumb2 {

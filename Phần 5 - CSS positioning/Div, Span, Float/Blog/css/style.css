@@ -1,0 +1,68 @@
+img {
+	width: 100%;
+	max-height: 400px;
+}
+
+.active {
+	font-weight: bold; 
+}
+
+h1 {
+	font-size: 24px;
+}
+
+#main-menu a {
+	font-size: 20px;
+	color: #737373;
+	text-decoration: none;
+}
+
+#main-menu a:hover, #main-menu a:active {
+	color: black;
+}
+
+#main-menu a:active {
+	font-weight: bold;
+}
+
+.box {
+	float: left;
+	width: 30%;
+	border: 1px solid #dddddd;
+	border-top-width: 5px;
+	padding: 15px; /* padding dùng để giãn cách nội dung với viền của 1 element */
+	/*margin: 5px; */ /* kiểu viết tắt */ /* margin dùng để giãn cách giữa các element với nhau */
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* span {
+	color: blue;
+} */
+
+.info {
+	border-color: #76a7fa;
+}
+
+.info span {
+	color: #76a7fa;
+}
+
+.contact {
+	border-color: #f9b256;
+}
+
+.contact span {
+	color: #f9b256;
+}
+
+.company {
+	border-color: #4bdfd9;
+}
+
+.company span {
+	color: #4bdfd9;
+}
+

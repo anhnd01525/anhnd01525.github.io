@@ -56,7 +56,7 @@ function printEmptyRectangle(a, b) {
 // Bài 3: Vẽ tam giác cân ngược
 function printSpecialTrigangle(n) {
 	var str = '';
-	// Cách 1: Tay to
+	// //Cách 1: Tay to
 	// for (var i = 1; i <= n; i++) {
 	// // vòng lặp ngoài: chạy từ trên xuống
 	// 	// vòng lặp trong số 1: chạy ngang, in ra khoảng trắng để dịch dấu * ra giữa						
